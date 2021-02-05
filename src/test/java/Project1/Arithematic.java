@@ -1,6 +1,6 @@
-package Task4;
+package Selbasics;
 
-public class Arithmeticop
+public class Arithmetic
 {
 	static int a=8,b=5,c;
 	
