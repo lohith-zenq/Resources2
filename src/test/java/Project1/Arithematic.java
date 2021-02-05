@@ -1,6 +1,6 @@
-package Arith;
+package Task4;
 
-public class AAA 
+public class Arithmeticop
 {
 	static int a=8,b=5;
 	
