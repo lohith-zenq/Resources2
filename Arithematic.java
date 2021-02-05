@@ -4,7 +4,7 @@ class Arithematic
 {
     
     
-    int a = 12, b = 5;
+    int a = 7, b = 9;
 
    
     System.out.println("a + b = " + (a + b));
