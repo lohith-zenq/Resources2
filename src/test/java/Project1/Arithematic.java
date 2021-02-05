@@ -1,40 +1,41 @@
 package Arith;
 
-public class Operations {
-
-	public static void main(String[] args)
+public class AAA 
+{
+	static int a=8,b=5;
+	
+	public static void add()
 	{
-
-             int a=20,b=30,c;
-             String op="add";
-            	 switch(op)
-            	 {
-            	 case "add":
-            		 c=a+b;
-            		 System.out.print(c);
-            		 break;
-            		 
-            	 case  "sub":
-            		 c=a+b;
-            		 System.out.print(c);
-            		 break;
-            		 
-            	 case "mul":
-            		 c=a+b;
-            		 System.out.print(c);
-            		 break;
-            		 
-            	 case "div":
-            		 c=a+b;
-            		 System.out.print(c);
-            		 break;
-            		 
-            		 default:
-            			 System.out.print("invalid ");
-            			 break;
-            	 }
+		int c;
+		c=a+b;
+		System.out.println(c);
 	}
-            		 
- }
+	public static void sub()
+	{
+		int c;
+		c=a-b;
+		System.out.println(c);
+	}
+	public static void mul()
+	{
+		int c;
+		c=a*b;
+		System.out.println(c);
+	}
+	public static void div()
+	{
+		int c;
+		c=a/b;
+		System.out.println(c);
+	}
+	
+	public static void main(String[] args) {
+       add();
+       sub();
+       mul();
+       div();
+	}
+
+}
 
 
