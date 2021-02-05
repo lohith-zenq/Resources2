@@ -1,18 +1,40 @@
+package Arith;
 
-    class Arithematic
-    {
-        public static void main(String[] args)
-        {
+public class Operations {
 
+	public static void main(String[] args)
+	{
 
-            int a = 7, b = 9;
+             int a=20,b=30,c;
+             String op="add";
+            	 switch(op)
+            	 {
+            	 case "add":
+            		 c=a+b;
+            		 System.out.print(c);
+            		 break;
+            		 
+            	 case  "sub":
+            		 c=a+b;
+            		 System.out.print(c);
+            		 break;
+            		 
+            	 case "mul":
+            		 c=a+b;
+            		 System.out.print(c);
+            		 break;
+            		 
+            	 case "div":
+            		 c=a+b;
+            		 System.out.print(c);
+            		 break;
+            		 
+            		 default:
+            			 System.out.print("invalid ");
+            			 break;
+            	 }
+	}
+            		 
+ }
 
-
-            System.out.println("a + b = " + (a + b));
-            System.out.println("a - b = " + (a - b));
-            System.out.println("a * b = " + (a * b));
-            System.out.println("a / b = " + (a / b));
-            System.out.println("a % b = " + (a % b));
-        }
-    }
 
