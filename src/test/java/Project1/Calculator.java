@@ -9,7 +9,7 @@ public class Calculator
     public static void main(String[] args)
 
      {
-    int operand1=5,operand2=20;
+    int operand1=20,operand2=5;   //5-divisor 20-dividend 
         String  action="multiplication";
         int result;
         Operations operations=new Operations(action);
