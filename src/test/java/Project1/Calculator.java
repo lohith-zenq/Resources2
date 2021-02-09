@@ -15,7 +15,7 @@ public class Calculator
         int result;
         int operand1, operand2;
         Operations operations = new Operations();
-        result = operations.division(10, 5);  // 5-divisor,10-
+        result = operations.division(10, 5);  // 5-divisor,10-dividend
 
         assertEquals(result=operations.addition(10,5),15); //Assertion statement 
 
