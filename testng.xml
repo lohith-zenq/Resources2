@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/My Stuff/Resoures2/src/test/java/testNG">
+        <classes>
+            <class name="testNG.Testannotation">
+                <methods>
+                    <include name="setupbrowser"/>
+                    <include name="siteverification"/>
+                    <include name="logindetails"/>
+                    <include name="verifylogin"/>
+                </methods>
+            </class>
+            <class name="testNG.Testannotation2">
+                <methods>
+                    <include name="logindetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
