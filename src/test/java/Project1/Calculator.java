@@ -14,7 +14,7 @@ public class Calculator
         int result;
         Operations operations=new Operations(action);
         result=operations.execute(operand1,operand2);
-
+        //Assertion statement
         Assert.assertEquals( result=operations.execute(operand1,operand2),100);
 
         System.out.println("Result is" +result);
