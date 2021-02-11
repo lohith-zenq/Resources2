@@ -40,13 +40,13 @@ public class Operations
     public static void Cal(){
 
         {
-            int operand1=5,operand2=20;
+            int operand1=5,operand2=20;  //5-divisor 20-dividend
             String action="subtraction";
             int result;
             Operations operations=new Operations(action);
             result=operations.execute(operand1,operand2);
 
-            //Assert.assertEquals( result=operations.execute(operand1,operand2),100);
+            Assert.assertEquals( result=operations.execute(operand1,operand2),100); //Assertion statement 
 
             System.out.println("Result is" +result);
         }
