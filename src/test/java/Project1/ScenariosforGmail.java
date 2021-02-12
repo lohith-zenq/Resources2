@@ -37,6 +37,7 @@ public class ScenariosforGmail
             } else {
                 System.out.println("OTPno should not be send");
             }
+            Assert.assertTrue(false); //assertion statement
             System.out.println("OTP sent");
 
         }
