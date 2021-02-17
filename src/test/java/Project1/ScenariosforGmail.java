@@ -52,5 +52,4 @@ public class ScenariosforGmail
         ScenariosforGmail.login scenariosforGmail1=new ScenariosforGmail.login();
         scenariosforGmail1.testscenarios();
     }
-
 }
