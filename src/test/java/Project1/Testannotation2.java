@@ -23,5 +23,4 @@ public class Testannotation2
         System.out.println("Enter password from given testdata");
     }
 
-
 }
