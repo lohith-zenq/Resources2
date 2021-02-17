@@ -31,6 +31,7 @@ public class Testannotation
     public void logindetails()
     {
         System.out.println("Enter valid username");
+     
         System.out.println("Enter valid password");
     }
     @Test(priority =4)
