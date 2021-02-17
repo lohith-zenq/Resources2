@@ -31,6 +31,7 @@ public class Arithmetic
        sub();
        mul();
        div();
+	
 	}
 
 }
