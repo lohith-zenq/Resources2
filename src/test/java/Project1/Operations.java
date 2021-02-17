@@ -29,7 +29,8 @@ public class Operations
             result = (operand1 * operand2);
         } else if (action == "division")
         {
-            result = (operand1 / operand2);
+         
+           result = (operand1 / operand2);
         }
 
         return result;
