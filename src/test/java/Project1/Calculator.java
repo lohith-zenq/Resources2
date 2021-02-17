@@ -19,6 +19,4 @@ public class Calculator
 
         System.out.println("Result is" +result);
         }
-
-
 }
