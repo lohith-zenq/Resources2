@@ -16,14 +16,16 @@ public class Verifypinterestlogin
        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://in.pinterest.com/login/");
-
+         
+        //Login
        Loginpage login=new Loginpage(driver);
 
         login.user_name("kanigallalohith@gmail.com");
         login.user_password("lohith123@");
         login.login_button();
       Thread.sleep(Long.parseLong("2000"));
-
+ 
+        //Logout 
         driver.get("https://in.pinterest.com/");
         Logout out=new Logout(driver);
 
