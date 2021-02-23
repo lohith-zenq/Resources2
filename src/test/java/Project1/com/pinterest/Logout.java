@@ -8,7 +8,7 @@ public class Logout
 {
     WebDriver driver;
     By navigateto_options= By.xpath("//button[@aria-label=\"Accounts and more options\"]");
-    By selecting_logout=By.linkText("Log out");
+    By selecting_logout=By.xpath("//div[@data-test-id=\"header-menu-options-logout\"]");
 
     public Logout(WebDriver driver)
     {
