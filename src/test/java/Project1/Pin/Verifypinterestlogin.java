@@ -24,6 +24,7 @@ public class Verifypinterestlogin
         login.login_button();
       Thread.sleep(Long.parseLong("2000"));
 
+        driver.get("https://in.pinterest.com/");
         Logout out=new Logout(driver);
 
         out.options();
